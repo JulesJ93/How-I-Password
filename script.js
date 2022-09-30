@@ -14,6 +14,8 @@ function writePassword() {
 }
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+generateBtn.addEventListener("click", function(){ alert("Hello World is your password");});
+
+
 
 alert("This is how I generate Passwords!");
